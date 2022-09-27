@@ -33,7 +33,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                   <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:workplaceHomepage/@rdf:resource"/></td>
                   <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:schoolHomepage/@rdf:resource"/></td>
                   <xsl:for-each select="rdf:RDF/foaf:Person/foaf:knows">
-                    <td><xsl:value-of select="foaf:Person/foaf:seeAlso/@rdf:resource"/></td>
+                    <td><xsl:value-of select="foaf:Person/rdfs:seeAlso/@rdf:resource"/></td>
                  </xsl:for-each>
                 </tr>
             </table>
