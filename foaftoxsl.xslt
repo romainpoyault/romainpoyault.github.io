@@ -24,11 +24,11 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                   <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:givenname"/></td>
                   <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:family_name"/></td>
                   <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:nick"/></td>
-                  <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:homepage"/></td>
-                  <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:depiction"/></td>
-                  <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:phone"/></td>
-                  <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:workplaceHomepage"/></td>
-                  <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:schoolHomepage"/></td>
+                  <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:homepage/@rdf:resource"/></td>
+                  <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:depiction/@rdf:resource"/></td>
+                  <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:phone/@rdf:resource"/></td>
+                  <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:workplaceHomepage/@rdf:resource"/></td>
+                  <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:schoolHomepage/@rdf:resource"/></td>
                 </tr>
             </table>
 
