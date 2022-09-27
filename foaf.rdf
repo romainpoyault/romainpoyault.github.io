@@ -1,0 +1,34 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Romain POYAULT</foaf:name>
+<foaf:title>Mr</foaf:title>
+<foaf:givenname>Romain</foaf:givenname>
+<foaf:family_name>POYAULT</foaf:family_name>
+<foaf:nick>PunKoManiaK</foaf:nick>
+<foaf:mbox_sha1sum>b061eb0b04627851c3cf46540225271c3724cda3</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="romainpoyault.github.io"/>
+<foaf:depiction rdf:resource="https://gravatar.com/avatar/fe03b1ebc59290edf0ba92fa8c93b0c8"/>
+<foaf:phone rdf:resource="tel:0626426395"/>
+<foaf:workplaceHomepage rdf:resource="www.soprasteria.com"/>
+<foaf:schoolHomepage rdf:resource="www.univ-lr.fr"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Erwan Thibaut</foaf:name>
+<foaf:mbox_sha1sum>9e6da3033f028aaf513221b29db712fc4e2a51d0</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="rea974.github.io"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Olivier Francou</foaf:name>
+<foaf:mbox_sha1sum>103f76056d71e070fc5ac937505fa5a625980148</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="olivierF-Git.github.io"/></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
