@@ -20,7 +20,6 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                   <th>Workplace Homepage</th>
                   <th>School Homepage</th>
                 </tr>
-                <xsl:for-each select="catalog/cd">
                 <tr>
                   <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:name"/></td>
                   <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:givenname"/></td>
@@ -32,7 +31,6 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                   <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:workplaceHomepage"/></td>
                   <td><xsl:value-of select="rdf:RDF/foaf:Person/foaf:schoolHomepage"/></td>
                 </tr>
-                </xsl:for-each>
               </table>
 
               <table border="1">
